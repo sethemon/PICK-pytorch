@@ -1,17 +1,8 @@
 # PICK-PyTorch
-**\*\*\*\*\* Updated on Feb 6th, 2021: Train Ticket dataset
-is now available for academic research. You can download from [Google Drive](https://drive.google.com/file/d/1o8JktPD7bS74tfjz-8dVcZq_uFS6YEGh/view?usp=sharing) or 
-[OneDrive](https://victoriaca-my.sharepoint.com/:u:/g/personal/wenwenyu_ncov_office_gy/EWXExdVdpiFAj76yxjpvK2oBCM2SRTtg3O1aybRuY0Jm6g?e=6eW9gI). 
-It contains 1,530 synthetic images and 320 real images for training, and 80 real images for testing.
-Please refer to our [paper](https://arxiv.org/abs/2004.07464)
-for more details about how to sample training/testing set from
-[EATEN](https://github.com/beacandler/EATEN) and generate the corresponding annotations.\*\*\*\*\***
+This repository is borrowed from https://github.com/wenwenyu/PICK-pytorch and developed on top of it for custom dataset.
+Thanks to @wenwenyu for developing and sharing.
 
-**\*\*\*\*\* Updated on Sep 17th, 2020: A training example on the large-scale document understanding dataset, 
-[DocBank](https://doc-analysis.github.io/docbank-page/), 
-is now available. Please refer to [examples/DocBank/README.md](examples/DocBank/README.md) 
-for more details. Thanks [TengQi Ye
-](https://github.com/tengerye) for this contribution.\*\*\*\*\***
+Kindly note: In case you want to replicate results as shown below, then kindly clone original PICK-pytorch repository.
 
 PyTorch reimplementation of ["PICK: Processing Key Information Extraction from Documents using Improved Graph 
 Learning-Convolutional Networks"](https://arxiv.org/abs/2004.07464) (ICPR 2020). This project is different from 
